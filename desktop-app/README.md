@@ -1,10 +1,18 @@
-# Monomer starter application
+# Список задач на Monomer
 
-Starter application for the Monomer library, including:
+Приложение с моделью состояния, событиями и построением интерфейса средствами Monomer.
 
-- Dependencies
-- Model and events type
-- Event handler
-- UI builder
+- [Исходники](src/) и [точка входа](app/).
+- [Графические ресурсы](assets/).
+- [Настройки Stack](stack.yaml) и [описание пакета](package.yaml).
 
-For more information, check https://github.com/fjvallarino/monomer.
+Из этой папки:
+
+```bash
+stack build
+stack run
+```
+
+Основа приложения — [monomer-starter](https://github.com/fjvallarino/monomer-starter).
+Сведения о библиотеке: [Monomer](https://github.com/fjvallarino/monomer).
+Исходная лицензия сохранена в [LICENSE](LICENSE).
